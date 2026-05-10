@@ -15,7 +15,7 @@ La app puede funcionar de dos formas:
 - **Modo local sin API key:** usa una comparacion simple de habilidades en el backend.
 - **Modo Claude API:** si configuras `ANTHROPIC_API_KEY`, el backend llama a Claude.
 
-![Captura de pantalla](screenshot.png)
+
 
 ## Tecnologias
 
