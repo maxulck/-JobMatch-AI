@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.gocache/
+.env
+*.log
+*.tsbuildinfo
+.DS_Store
+server/.env
+server/tmp/
+client/.env
+client/dist/

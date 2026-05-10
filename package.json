@@ -1,0 +1,13 @@
+{
+  "name": "jobmatch-ai",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"pnpm dev:client\" \"pnpm dev:server\"",
+    "dev:client": "pnpm --filter client dev",
+    "dev:server": "cd server && go run main.go",
+    "build": "pnpm --filter client build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
